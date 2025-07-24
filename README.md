@@ -1,10 +1,5 @@
 # My Developer Portfolio
 
-[Demo](https://rtharusha.netlify.app/)
-
-![image](https://github.com/randilt/react-dev-portfolio/assets/51049280/ac9d1108-266a-4cfe-98ef-36081db11770)
-
-
 Welcome to my personal developer portfolio! This project serves as a showcase for my skills, projects, and experiences.
 
 ## Features
@@ -24,9 +19,11 @@ git clone https://github.com/randilt/react-dev-portfolio.git
 ```
 
 ## 2. Navigate to the Project
+
 ```bash
 cd react-dev-portfolio
 ```
+
 ## 3. Install Dependencies
 
 ```bash
@@ -38,6 +35,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 The portfolio will be available at http://localhost:5173/ by default.
 
 ## 5. Customize
