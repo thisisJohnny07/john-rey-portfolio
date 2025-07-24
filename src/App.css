@@ -235,7 +235,6 @@ footer {
 .project-card {
   width: 350px;
   height: 550px;
-  margin: 20px 50px;
   padding: 18px;
   background: rgba(5, 0, 0, 0.3);
   box-shadow: 0 0px 5px 0 rgba(48, 160, 245, 0.37);
