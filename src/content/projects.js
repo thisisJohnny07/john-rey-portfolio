@@ -1,33 +1,60 @@
-//projects start
+// projects start
 const projects = [
   {
-    name: "Booking.com clone",
+    name: "Smart Online Parking System",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "/bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+      "A web-based platform that allows users to find, reserve, and manage parking slots in real-time, helping reduce traffic congestion, minimize time spent searching for parking, and improve overall parking space utilization through efficient, user-friendly tools.",
+    stack: ["React.js", "Django", "Tailwind CSS", "Paymongo"],
+    sourceCode: "https://github.com/thisisJohnny07/Smart-Parking-App.git",
+    img: "/projects/parking-system.png",
+    preview: "#",
   },
   {
-    name: "Cyberscourge Hub",
+    name: "Accounting Online Approval System",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this blog.",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/cyberscourge-hub",
-    img: "/cyberscourge.jpg",
-    preview: "https://rtharusha.tech",
+      "A mobile-based approval system designed to streamline various accounting processes, including the approval of disbursements, cash receipts, sales, receivables, and other finance-related transactions, ensuring faster workflows and improved financial oversight.",
+    stack: ["React Native", "Laravel", "Mailtrap"],
+    sourceCode: "https://github.com/thisisJohnny07/Online-Approval-App-Backend.git",
+    img: "/projects/approval-system.png",
+    preview: "#",
   },
   {
-    name: "Jotion (Notion Clone)",
+    name: "ResilientLink: PDRRMO Disaster Management Platform",
     description:
-      "A clone of the popular note taking app Notion. This app is built using Nextjs 13 and Tailwind CSS. It uses clerk for authentication and convex for its real time database. The project is not yet complete ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/notion-clone",
-    img: "/jotion.jpg",
+      "A multi-platform system with a web app for coordinating disaster response, a citizen app for viewing advisories and drop-off points, and a staff app for managing relief goods.",
+    stack: ["Flutter", "Firebase", "Paymongo", "Google Maps API", "OpenWeather API"],
+    sourceCode: "https://github.com/thisisJohnny07/ResilientlinkWeb.git",
+    img: "/projects/ResilientLink.png",
+    preview: "#",
+  },
+  {
+    name: "Hotel Management System",
+    description:
+      "A web-based application designed to streamline and automate hotel operations, including room bookings, customer management, payment tracking, and other essential front desk and administrative tasks, ultimately enhancing efficiency, improving guest experiences, and simplifying day-to-day hotel management.",
+    stack: ["React.js", "Node.js", "Paymongo"],
+    sourceCode: "https://github.com/thisisJohnny07/Hotel-Reservation-System.git",
+    img: "/projects/hotel-system.png",
+    preview: "#",
+  },
+  {
+    name: "CheckInTrace: School Events Attendance Management System",
+    description:
+      "A web-based system that efficiently manages and tracks student attendance for school events, enabling easy event creation, check-ins, and attendance reporting to improve organization and accountability.",
+    stack: ["React.js", "Laravel", "Paymongo"],
+    sourceCode: "https://github.com/thisisJohnny07/School-Event-Attendance-Management-System.git",
+    img: "/projects/ChechInTrace.png",
+    preview: "#",
+  },
+  {
+    name: "FocusFlow: To-Do List Application",
+    description:
+      "A clean and simple task management app that enables users to efficiently add, update, and delete tasks, helping them stay organized and focused. Designed with productivity and ease of use in mind, it offers a streamlined interface for managing daily to-dos and improving task completion.",
+    stack: ["Flutter", "Firabase"],
+    sourceCode: "https://github.com/thisisJohnny07/FocusFlow-To-Do-App-.git",
+    img: "/projects/FocusFlow.png",
     preview: "#",
   },
 ];
 
-//projects end
+// projects end
 export default projects;

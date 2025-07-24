@@ -25,38 +25,21 @@ const ContactForm = () => {
         <div>
           <p className="contact-links">
             <MdEmail />
-            randiltharusha72@gmail.com
+            thisisjohnrey@gmail.com
           </p>
+          <p className="email-indent">johnreycseguma@gmail.com</p>
           <br />
           <p className="contact-links">
             <FaPhoneAlt />
-            +94 78 134 7983
+            +63 926 171 4623
           </p>
           <br />
           <p className="contact-links">
             <IoLocation />
-            Sri Lanka
+            Isulan Sultan Kudarat Philippines
           </p>
           <br />
         </div>
-      </div>
-      <div className="contact-form">
-        <form name="contact" netlify>
-          <input
-            type="text"
-            name="senderName"
-            placeholder="Your Name"
-            required
-          />
-          <input type="text" name="senderEmail" placeholder="Email" required />
-          <input type="text" name="subject" placeholder="Subject" required />
-          <textarea
-            placeholder="Your Message"
-            name="message"
-            required
-          ></textarea>
-          <input type="submit" value="Send" />
-        </form>
       </div>
     </div>
   );
