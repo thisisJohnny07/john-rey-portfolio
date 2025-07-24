@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
-import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = (props) => {
   const { img, name, description, stack = [], source, preview } = props;
@@ -8,7 +7,7 @@ const ProjectCard = (props) => {
   return (
     <div className="project-card">
       <div className="project-img">
-        <img src={img} alt={name} />
+        <img src={`${import.meta.env.BASE_URL}${img}`} alt={name} />
       </div>
       <div className="project-title">
         <h2>{name}</h2>

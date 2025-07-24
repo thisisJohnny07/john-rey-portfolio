@@ -23,47 +23,38 @@ const Hero = (props) => {
         }}
         className="pfp"
       >
-        <img src={props.img} alt="" />
+        <img src={`${import.meta.env.BASE_URL}${props.img}`} alt="Profile" />
       </motion.div>
 
       <Heading firstWord="Who" secondWord="AmI?" />
+
       <div className="hero-typewriter">
         <h3>I am</h3>
         <Typewriter
           options={{
-            strings: [
-              "An Aspiring Software Developer"
-            ],
+            strings: ["An Aspiring Software Developer"],
             autoStart: true,
             loop: true,
           }}
           className="typewriter"
         />
       </div>
-      {/* <HeroHeading /> */}
+
       <div className="button-effect">
-        {/* <button className="glowing-btn">
-          <span className="glowing-txt">
-            <span className="faulty-letter">IAM</span>
-          </span>
-        </button>
-        <br />
-        <button className="glowing-btn">
-          <span className="glowing-txt">
-            <span className="faulty-letter">R</span>ANDIL
-            <span className="faulty-letter">T</span>HARUSHA
-          </span>
-        </button> */}
         <div className="hero-text">
           <p className="hero-desc">{props.description}</p>
         </div>
+
         <br />
         <br />
         Find me on:
         <div className="hero-socials">
           {socials.map((social, index) => (
-            <a key={index} href={social.url}>
-              <img src={`/socials/${social.icon}`} alt="" />
+            <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
+              <img
+                src={`${import.meta.env.BASE_URL}socials/${social.icon}`}
+                alt={social.icon}
+              />
             </a>
           ))}
         </div>
@@ -71,9 +62,11 @@ const Hero = (props) => {
     </div>
   );
 };
-export default Hero;
+
 Hero.propTypes = {
   img: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
+
+export default Hero;

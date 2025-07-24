@@ -231,18 +231,9 @@ footer {
     font-size: 15px;
   }
 }
-/* .hr {
-  border: 0;
-  height: 4px;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(108, 5, 5, 0.649),
-    rgba(255, 255, 255, 0)
-  );
-} */
+
 .project-card {
-  width: 400px;
+  width: 350px;
   height: 550px;
   margin: 20px 50px;
   padding: 18px;
