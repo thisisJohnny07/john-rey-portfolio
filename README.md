@@ -15,7 +15,7 @@ Welcome to my personal developer portfolio! This project serves as a showcase fo
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/randilt/react-dev-portfolio.git
+git clone https://github.com/thisisJohnny07/john-rey-portfolio.git
 ```
 
 ## 2. Navigate to the Project
