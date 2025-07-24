@@ -235,6 +235,7 @@ footer {
 .project-card {
   width: 350px;
   height: 550px;
+  margin: 20px 50px;
   padding: 18px;
   background: rgba(5, 0, 0, 0.3);
   box-shadow: 0 0px 5px 0 rgba(48, 160, 245, 0.37);
@@ -244,6 +245,12 @@ footer {
   border-radius: 15px;
   transition: 0.2s all ease-in-out;
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  .project-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 .project-card:hover {
   transform: scale(1.05);
@@ -345,6 +352,11 @@ footer {
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(1, 58, 96, 0.18);
   border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .hero-socials {
+    justify-content: center; /* center on smaller screens */
+  }
 }
 #contact {
   display: flex;
@@ -579,18 +591,26 @@ form > input[type="submit"]:hover {
   margin-top: 30px;
   gap: 10px;
   font-size: 40px;
+  text-align: center; /* add this */
+  width: 100%; /* optional for better responsiveness */
 }
+
 .typewriter-wrapper span {
   color: #015490;
 }
+
 .Typewriter__wrapper {
   color: #015490;
   font-weight: 700;
+  text-align: center; /* add this */
+  width: 100%; /* add this */
 }
+
 @media (max-width: 768px) {
   .Typewriter__wrapper,
   .hero-typewriter {
     font-size: 25px;
+    text-align: center; /* ensure center on small screens */
   }
 }
 .project-stack {
@@ -613,4 +633,13 @@ form > input[type="submit"]:hover {
   margin-left: 25px; /* same width as icon + gap */
   color: white;
   font-family: 'Share Tech Mono', monospace;
+}
+.profile-image {
+  display: block;       /* Make image a block to center with margin auto */
+  margin: 0 auto;       /* Center horizontally */
+  margin-top: 30px; /* Add some space from the top */
+  width: 150px;         /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%;   /* Make circle */
+  object-fit: cover;    /* Ensure image covers the container nicely */
 }
