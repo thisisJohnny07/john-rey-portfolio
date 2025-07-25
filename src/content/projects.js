@@ -20,7 +20,7 @@ const projects = [
   {
     name: "ResilientLink: PDRRMO Disaster Management Platform",
     description:
-      "A multi-platform system with a web app for disaster coordination, a citizen app for advisories and drop-off points, and a staff app for managing relief goods.",
+      "A multi-platform system with a web app for disaster coordination, a citizen app for receiving advisories and finding drop-off points, and a staff app for managing and distributing relief goods.",
     stack: ["Flutter", "Firebase", "Paymongo", "Google Maps API", "OpenWeather API"],
     sourceCode: "https://github.com/thisisJohnny07/ResilientlinkWeb.git",
     img: "projects/ResilientLink.png",
@@ -38,7 +38,7 @@ const projects = [
   {
     name: "CheckInTrace: School Events Attendance Management System",
     description:
-      "A web app for tracking student attendance at school events through easy event setup, check-ins, and reporting.",
+      "A web app that helps schools efficiently track student attendance at events through easy event creation, quick and secure check-ins, and automated reporting. It streamlines attendance management, saves time, and ensures accurate records for administrators.",
     stack: ["React.js", "Laravel", "Paymongo"],
     sourceCode: "https://github.com/thisisJohnny07/School-Event-Attendance-Management-System.git",
     img: "projects/ChechInTrace.png",

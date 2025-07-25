@@ -3,20 +3,48 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 
-const ContactForm = () => {
+const ContactFooter = () => {
   return (
-    <div className="contact-section">
-      <div className="contact-info">
-        <h1>Let&apos;s talk about everything!</h1>
-        <p>
-          Don&apos;t like forms? Send me an{" "}
-          <a href="mailto:johnreycseguma@gmail.com">email</a>. 👋
-          <br />
-          <br />
+    <footer className="contact-footer">
+      <div className="contact-container">
+        {/* Left Column */}
+        <div className="contact-col contact-left">
+          <h2>Let's talk about everything!</h2>
+          <p>
+            Send me an{" "}
+            <a href="mailto:johnreycseguma@gmail.com">email</a>. 👋
+          </p>
+        </div>
+
+        {/* Middle Column */}
+        <div className="contact-col contact-middle">
+          <p className="contact-links">
+            <MdEmail className="icon" />
+            thisisjohnrey@gmail.com
+          </p>
+          <p className="contact-links email-indent">johnreycseguma@gmail.com</p>
+          <p className="contact-links">
+            <FaPhoneAlt className="icon" />
+            +63 926 171 4623
+          </p>
+          <p className="contact-links">
+            <IoLocation className="icon" />
+            Isulan Sultan Kudarat Philippines
+          </p>
+        </div>
+
+        {/* Right Column */}
+        <div className="contact-col contact-right">
           <h3>Or find me on:</h3>
           <div className="hero-socials">
             {socials.map((social, index) => (
-              <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
+              <a
+                key={index}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.icon.replace(".svg", "")}
+              >
                 <img
                   src={`${import.meta.env.BASE_URL}socials/${social.icon}`}
                   alt={social.icon.replace(".svg", "")}
@@ -24,28 +52,10 @@ const ContactForm = () => {
               </a>
             ))}
           </div>
-        </p>
-        <div>
-          <p className="contact-links">
-            <MdEmail />
-            thisisjohnrey@gmail.com
-          </p>
-          <p className="email-indent">johnreycseguma@gmail.com</p>
-          <br />
-          <p className="contact-links">
-            <FaPhoneAlt />
-            +63 926 171 4623
-          </p>
-          <br />
-          <p className="contact-links">
-            <IoLocation />
-            Isulan Sultan Kudarat Philippines
-          </p>
-          <br />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
-export default ContactForm;
+export default ContactFooter;
