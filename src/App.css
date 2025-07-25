@@ -369,7 +369,7 @@ footer {
   }
 }
 .contact-footer {
-  width: 100vw;
+  width: 100%;
   background: rgba(5, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(48, 160, 245, 0.4);
   backdrop-filter: blur(8px);
